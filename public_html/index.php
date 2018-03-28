@@ -5,8 +5,17 @@
 <title>TecnoGroup Solutions</title>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
-<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<script type="text/javascript" src="js/flip.js"></script>
+<script type="text/javascript" src="js/jquery.flip.js"></script>
+<script type="text/javascript" src="js/jquery.flip.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".card").flip({
+  axis: 'y',
+  trigger: 'hover'
+});
+});
+</script>
 
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
