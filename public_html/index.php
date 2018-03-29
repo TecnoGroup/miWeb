@@ -9,22 +9,20 @@
 <script type="text/javascript" src="js/jquery.flip.js"></script>
 <script type="text/javascript" src="js/jquery.flip.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script>
 
+</script>
 </head>
     <div id="cabecera">
         <img src="images/logo.jpg" id="img"/>
     </div>
 <body>
-    <div id="menu"></div>
-    <!--
-	<div id="menu">
-    <ul id="menuu">
-        <li><a href="#" title="Home"><span>Home</span></a></li>
-        <li><a href="#" title="Servicios"><span>Servicios</span></a></li>
-        <li><a href="#" title="Nosotros"><span>Nosotros</span></a></li>
+    <ul class="menuu">
+        <li><a class="lista1" href="#" title="Home">Home</a></li>
+        <li><a class="lista2" href="#" title="Servicios">Servicios</a></li>
+        <li><a class="lista3" href="#" title="Nosotros">Nosotros</a></li>
+        <li><a class="lista4" href="#" title="Proyectos">Proyectos</a></li>
     </ul>
-    </div>
-    -->
     <div>
         <div align="center" style="font-size:18px;margin-top:20px">OBJETIVO
             <p>
