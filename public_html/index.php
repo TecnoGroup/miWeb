@@ -9,9 +9,7 @@
 <script type="text/javascript" src="js/jquery.flip.js"></script>
 <script type="text/javascript" src="js/jquery.flip.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
-<script>
 
-</script>
 </head>
     <div id="cabecera">
         <img src="images/logo.jpg" id="img"/>
